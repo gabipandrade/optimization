@@ -1,0 +1,103 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[brazilian]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages (pode incluir mais pacotes se quiser)
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+\usepackage[round]{natbib}
+\usepackage[color=red!20]{todonotes}
+\usepackage{indentfirst}
+\usepackage{float}
+\linespread{1.2}
+
+\title{Template para escrita do relatório}
+\date{}
+\begin{document}
+\maketitle
+
+\begin{tabular}{lp{10cm}}
+     \textbf{Integrante(s):}& Listar os integrantes\\
+     \textbf{E-mail(s):} & e-mail de cada integrante\\
+\end{tabular}
+
+\begin{abstract}
+Escreva aqui um breve resumo do que foi desenvolvido no projeto, incluindo a contribuição de cada integrante do grupo para sua conclusão. O resumo deve estar inteiramente contido na primeira página e ter no máximo 280 palavras (preferencialmente com menos de 200).\\  
+Este \textit{template} deve ser utilizado para a entrega (apesar de ser recomendado, não é obrigatório fazer o relatório no Overleaf, mas ele deve seguir a estrutura apresentada neste \textit{template}).\\  
+\textbf{O relatório deve ter no máximo 6 páginas e no mínimo 2, incluindo a página de resumo e as tabelas necessárias para a análise feita pelo grupo.}
+
+\end{abstract}
+
+\newpage
+
+\section{Resultados Obtidos}
+\label{sec:intro}
+
+Esta seção deve conter toda a análise feita pelo grupo com base nos testes computacionais realizados.
+
+Todo o código desenvolvido deve estar apenas no arquivo \textit{.ipynb} elaborado pelo grupo. Não insira nenhum código neste relatório, apenas as tabelas necessárias para a análise dos testes executados. Para os dois primeiros testes, os resultados devem ser exibidos também somente no arquivo \textit{.ipynb}. 
+
+\subsection{Teste Computacional 1}
+
+Escreva aqui a análise feita para o primeiro teste (nesta análise não é necessário apresentar nenhuma tabela, apenas um texto explicando o que foi observado).
+
+
+\subsection{Teste Computacional 2}
+
+Escreva aqui a análise feita para o segundo teste (nesta análise não é necessário apresentar nenhuma tabela, apenas um texto explicando o que foi observado).
+
+
+\subsection{Teste Computacional 3}
+
+Escreva aqui a análise feita para o terceiro teste (nesta análise não é necessário apresentar nenhuma tabela, apenas um texto explicando o que foi observado).
+
+
+\subsection{Teste Computacional 4}
+
+Escreva aqui a análise feita para o quarto teste (nesta análise apresente uma tabela contendo o valor da função objetivo, o gap e o tempo computacional para cada instância).
+
+Para referenciar a tabela use (Tabela \ref{tab:teste4}).
+
+\begin{table}[H]
+	\centering
+	\caption{Exemplo de Tabela 2 (lembre-se de alterar este título)}
+		\begin{tabular}{c c c c} \hline
+	 	Instância & Melhor Solução & \% Gap & Tempo de Execução (s) \\ \hline
+		1  & 38804.4 & 0.00 & 59.19 \\
+		2 & 38473.0 & 0.00 & 41.74 \\ 
+		3 & 37958.7 & 0.00 & 52.30 \\
+		4 & 40386.7 & 0.00 & 4.15 \\  \hline
+		\end{tabular}
+  \label{tab:teste4}
+\end{table}
+
+\subsection{Teste Computacional 5}
+
+Escreva aqui a análise feita para o quinto teste (nesta análise apresente uma tabela contendo o valor da função objetivo, o gap e o tempo computacional para cada instância).
+
+\subsection{Teste Computacional 6}
+
+Escreva aqui a análise feita para o sexto teste (nesta análise apresente uma tabela contendo o valor da função objetivo, o gap e o tempo computacional para cada instância).
+
+\subsection{Teste Computacional 7}
+
+Escreva aqui a análise feita para o sétimo teste (nesta análise apresente uma tabela contendo o valor da função objetivo, o gap e o tempo computacional para cada instância).
+
+\section{Conclusão}
+\label{sec:conclusao}
+
+A conclusão deve contextualizar os resultados obtidos e o que foi possível concluir com o desenvolvimento do trabalho. 
+
+Não é necessário fazer uma conclusão muito elaborada, apenas escreva o que foi possível perceber com os resultados obtidos na seção anterior (Escreva no máximo 200 palavras).
+
+% \bibliographystyle{plainnat}
+% \bibliography{references}
+
+\end{document}
