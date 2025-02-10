@@ -1,10 +1,10 @@
 # Otimização - Alocação de Alunos Monitores
-
+Projeto para disciplina de programação matematica
 ---
 
 ## Resumo
 
-Com o auxílio do template em Python disponibilizado, foi implementado um modelo para a alocação de monitores às disciplinas, visando maximizar as médias ponderadas dos monitores e minimizar as disciplinas sem monitores. Diversos testes computacionais foram realizados para avaliar o desempenho do modelo em diferentes situações. Todo o trabalho foi realizado pela única integrante do grupo.
+Com o auxílio do template em Python disponibilizado para o projeto, foi implementado um modelo para a alocação de monitores às disciplinas, visando maximizar as médias ponderadas dos monitores e minimizar as disciplinas sem monitores. Diversos testes computacionais foram realizados para avaliar o desempenho do modelo em diferentes situações.
 
 ---
 
