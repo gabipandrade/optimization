@@ -1,5 +1,5 @@
 # Otimização - Alocação de Alunos Monitores
-Projeto para disciplina de programação matematica
+Projeto para disciplina de programação matemática
 ---
 
 ## Resumo
